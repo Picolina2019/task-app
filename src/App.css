@@ -1,0 +1,101 @@
+body{
+  background-color: rgb(231, 245, 245);
+  font-family: 'Shadows Into Light', cursive;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  width:100%;
+  height:100%;
+
+  
+}
+.App h1{
+  font-size:70px;
+  margin-top: 8rem;
+}
+.App .input{
+  width:18rem;
+  height:3rem;
+  border:none;
+  border-radius: 10px;
+  background-color: rgb(199, 199, 221);
+  font-size: 18px;
+  padding:5px;
+  margin:10px;
+  outline:none;
+  color:white;
+}
+.App .input:hover{
+  outline:none;
+}
+.App .addButton{
+  width:5rem;
+  height:3.5rem;
+  border:none;
+  border-radius: 10px;
+  font-size:16px;
+  background-color: rgb(244, 222, 216);
+  outline:none;
+}
+.App .addButton:hover{
+  outline:none;
+  cursor: pointer;
+}
+.App .delete{
+  margin-bottom: 0px;
+  width:6rem;
+  height:3rem;
+  border:none;
+  border-radius: 10px;
+  font-size:16px;
+  background-color:rgb(233, 243, 245);
+  outline:none;
+  border:3px solid rgb(67, 106, 131);
+  float: right;
+  color:rgb(76, 107, 128);
+  font-size: 14px;
+  margin-right:20px;
+  margin-bottom:20px;
+  cursor: pointer;
+}
+.App .delete:hover{
+  outline:none;
+  cursor: pointer;
+}
+.App .left{
+  float:left;
+  margin-left:20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color:rgb(255, 63, 95);
+}
+.todo{
+  width:50rem;
+  background-color: rgb(199, 199, 221);
+  height:3rem;
+  margin:20px auto;
+  border-radius: 5px;
+  font-size: 24px;
+  overflow:auto;
+}
+.todo .todoInput{
+  float:left;
+  padding:3px;
+  letter-spacing: 2px;
+}
+.todo .todoInput span{
+  text-align: left;
+}
+.todo .todoInput input{
+  width:25px;
+  height:25px;
+  outline:none;
+  cursor: pointer;
+}
+
+.App .noTodos{
+  font-size: 60px;
+  color:rgb(48, 15, 80)
+}
